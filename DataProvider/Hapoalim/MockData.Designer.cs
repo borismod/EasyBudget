@@ -61,7 +61,23 @@ namespace DataProvider.Hapoalim {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to [{&quot;serviceCode&quot;:0,&quot;bankNumber&quot;:12,&quot;extendedBankNumber&quot;:912,&quot;branchNumber&quot;:476,&quot;accountNumber&quot;:129249,&quot;partyPreferredIndication&quot;:0,&quot;partyAccountInvolvementCode&quot;:1,&quot;partyAccountInvolvementDescription&quot;:null,&quot;accountDealDate&quot;:0,&quot;accountUpdateDate&quot;:0,&quot;metegDoarNet&quot;:1,&quot;kodHarshaatPeilut&quot;:1,&quot;accountClosingReasonCode&quot;:0,&quot;productLabel&quot;:&quot;476  129249&quot;,&quot;accountAgreementOpeningDate&quot;:0},{&quot;serviceCode&quot;:0,&quot;bankNumber&quot;:12,&quot;extendedBankNumber&quot;:912,&quot;branchNumber&quot;:612,&quot;accountNumber&quot;:309490,&quot;partyPreferredIndication&quot;:0,&quot;partyA [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to [
+        ///    {
+        ///        &quot;serviceCode&quot;: 0,
+        ///        &quot;bankNumber&quot;: 12,
+        ///        &quot;extendedBankNumber&quot;: 912,
+        ///        &quot;branchNumber&quot;: 135,
+        ///        &quot;accountNumber&quot;: 132456,
+        ///        &quot;partyPreferredIndication&quot;: 0,
+        ///        &quot;partyAccountInvolvementCode&quot;: 1,
+        ///        &quot;partyAccountInvolvementDescription&quot;: null,
+        ///        &quot;accountDealDate&quot;: 0,
+        ///        &quot;accountUpdateDate&quot;: 0,
+        ///        &quot;metegDoarNet&quot;: 1,
+        ///        &quot;kodHarshaatPeilut&quot;: 1,
+        ///        &quot;accountClosingReasonCode&quot;: 0,
+        ///        &quot;productLabel&quot;: &quot;135  132456&quot;,
+        ///        [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string HapoalimAccounts {
             get {
@@ -70,7 +86,20 @@ namespace DataProvider.Hapoalim {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;metadata&quot;:{&quot;links&quot;:{}},&quot;currentAccountLimitsAmount&quot;:0.0,&quot;withdrawalBalance&quot;:0.0,&quot;currentBalance&quot;:-4.19,&quot;creditLimitUtilizationPercent&quot;:0.0,&quot;creditLimitUtilizationExistanceCode&quot;:2,&quot;creditLimitDescription&quot;:null,&quot;creditLimitAmount&quot;:0.0,&quot;creditLimitUtilizationAmount&quot;:0.0,&quot;formattedCurrentAccountLimitsAmount&quot;:&quot;₪ 0.00&quot;,&quot;formattedCurrentBalance&quot;:&quot;₪ -4.19&quot;,&quot;formattedWithdrawalBalance&quot;:&quot;₪ 0.00&quot;,&quot;formattedCurrentDate&quot;:&quot;16/01&quot;}.
+        ///   Looks up a localized string similar to {
+        ///    &quot;metadata&quot;: { &quot;links&quot;: {} },
+        ///    &quot;currentAccountLimitsAmount&quot;: 0.0,
+        ///    &quot;withdrawalBalance&quot;: 0.0,
+        ///    &quot;currentBalance&quot;: 132.19,
+        ///    &quot;creditLimitUtilizationPercent&quot;: 0.0,
+        ///    &quot;creditLimitUtilizationExistanceCode&quot;: 2,
+        ///    &quot;creditLimitDescription&quot;: null,
+        ///    &quot;creditLimitAmount&quot;: 0.0,
+        ///    &quot;creditLimitUtilizationAmount&quot;: 0.0,
+        ///    &quot;formattedCurrentAccountLimitsAmount&quot;: &quot;₪ 0.00&quot;,
+        ///    &quot;formattedCurrentBalance&quot;: &quot;₪ 132.19&quot;,
+        ///    &quot;formattedWithdrawalBalance&quot;: &quot;₪ 0.00&quot;,
+        ///    &quot;formattedCurrentDate&quot;: &quot;1 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string HapoalimBalance1 {
             get {
@@ -79,7 +108,20 @@ namespace DataProvider.Hapoalim {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;metadata&quot;:{&quot;links&quot;:{}},&quot;currentAccountLimitsAmount&quot;:0.0,&quot;withdrawalBalance&quot;:1400.05,&quot;currentBalance&quot;:1400.05,&quot;creditLimitUtilizationPercent&quot;:0.0,&quot;creditLimitUtilizationExistanceCode&quot;:2,&quot;creditLimitDescription&quot;:null,&quot;creditLimitAmount&quot;:0.0,&quot;creditLimitUtilizationAmount&quot;:0.0,&quot;formattedCurrentAccountLimitsAmount&quot;:&quot;₪ 0.00&quot;,&quot;formattedCurrentBalance&quot;:&quot;₪ 1,400.05&quot;,&quot;formattedWithdrawalBalance&quot;:&quot;₪ 1,400.05&quot;,&quot;formattedCurrentDate&quot;:&quot;16/01&quot;}.
+        ///   Looks up a localized string similar to {
+        ///    &quot;metadata&quot;: { &quot;links&quot;: {} },
+        ///    &quot;currentAccountLimitsAmount&quot;: 0.0,
+        ///    &quot;withdrawalBalance&quot;: 1400.05,
+        ///    &quot;currentBalance&quot;: 1400.05,
+        ///    &quot;creditLimitUtilizationPercent&quot;: 0.0,
+        ///    &quot;creditLimitUtilizationExistanceCode&quot;: 2,
+        ///    &quot;creditLimitDescription&quot;: null,
+        ///    &quot;creditLimitAmount&quot;: 0.0,
+        ///    &quot;creditLimitUtilizationAmount&quot;: 0.0,
+        ///    &quot;formattedCurrentAccountLimitsAmount&quot;: &quot;₪ 0.00&quot;,
+        ///    &quot;formattedCurrentBalance&quot;: &quot;₪ 1,400.05&quot;,
+        ///    &quot;formattedWithdrawalBalance&quot;: &quot;₪ 1,400.05&quot;,
+        ///    &quot;formattedCurre [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string HapoalimBalance2 {
             get {
@@ -88,7 +130,20 @@ namespace DataProvider.Hapoalim {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;currentAccountLimitsAmount&quot;:23600.0,&quot;withdrawalBalance&quot;:5901.26,&quot;currentBalance&quot;:-17698.74,&quot;creditLimitUtilizationPercent&quot;:75.0,&quot;creditLimitUtilizationExistanceCode&quot;:2,&quot;creditLimitDescription&quot;:null,&quot;creditLimitAmount&quot;:0.0,&quot;creditLimitUtilizationAmount&quot;:0.0,&quot;formattedCurrentAccountLimitsAmount&quot;:&quot;₪ 23,600.00&quot;,&quot;formattedCurrentBalance&quot;:&quot;₪ -17,698.74&quot;,&quot;formattedWithdrawalBalance&quot;:&quot;₪ 5,901.26&quot;,&quot;formattedCurrentDate&quot;:&quot;16/01&quot;}.
+        ///   Looks up a localized string similar to {
+        ///    &quot;currentAccountLimitsAmount&quot;: 3600.0,
+        ///    &quot;withdrawalBalance&quot;: 1001.26,
+        ///    &quot;currentBalance&quot;: -2598.74,
+        ///    &quot;creditLimitUtilizationPercent&quot;: 75.0,
+        ///    &quot;creditLimitUtilizationExistanceCode&quot;: 2,
+        ///    &quot;creditLimitDescription&quot;: null,
+        ///    &quot;creditLimitAmount&quot;: 0.0,
+        ///    &quot;creditLimitUtilizationAmount&quot;: 0.0,
+        ///    &quot;formattedCurrentAccountLimitsAmount&quot;: &quot;₪ 3,600.00&quot;,
+        ///    &quot;formattedCurrentBalance&quot;: &quot;₪ -2,598.74&quot;,
+        ///    &quot;formattedWithdrawalBalance&quot;: &quot;₪ 1,001.26&quot;,
+        ///    &quot;formattedCurrentDate&quot;: &quot;16/01&quot;
+        ///}.
         /// </summary>
         internal static string HapoalimBalance3 {
             get {
@@ -97,7 +152,23 @@ namespace DataProvider.Hapoalim {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;retrievalTransactionData&quot;:{&quot;balanceAmountDisplayIndication&quot;:&quot;Y&quot;,&quot;branchNumber&quot;:476,&quot;accountNumber&quot;:69408,&quot;retrievalMinDate&quot;:20150116,&quot;retrievalMaxDate&quot;:20160116,&quot;retrievalStartDate&quot;:20160101,&quot;retrievalEndDate&quot;:20160116,&quot;eventCounter&quot;:4,&quot;joinPfm&quot;:true},&quot;message&quot;:[],&quot;transactions&quot;:[{&quot;eventDate&quot;:20160104,&quot;formattedEventDate&quot;:&quot;2016-01-04T00:00:00.000Z&quot;,&quot;serialNumber&quot;:2,&quot;activityTypeCode&quot;:473,&quot;activityDescription&quot;:&quot;מינ. דמי נהול&quot;,&quot;textCode&quot;:602,&quot;referenceNumber&quot;:845,&quot;referenceCatenatedNumber&quot;:0,&quot;valueDate&quot;:201 [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to {
+        ///    &quot;retrievalTransactionData&quot;: {
+        ///        &quot;balanceAmountDisplayIndication&quot;: &quot;Y&quot;,
+        ///        &quot;branchNumber&quot;: 135,
+        ///        &quot;accountNumber&quot;: 132456,
+        ///        &quot;retrievalMinDate&quot;: 20150116,
+        ///        &quot;retrievalMaxDate&quot;: 20170116,
+        ///        &quot;retrievalStartDate&quot;: 20170101,
+        ///        &quot;retrievalEndDate&quot;: 20170116,
+        ///        &quot;eventCounter&quot;: 4,
+        ///        &quot;joinPfm&quot;: true
+        ///    },
+        ///    &quot;message&quot;: [],
+        ///    &quot;transactions&quot;: [
+        ///        {
+        ///            &quot;eventDate&quot;: 20160104,
+        ///            &quot;formattedEventDate&quot;: &quot;2016-01-04T00:00:0 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string HapoalimTransactions1 {
             get {
@@ -106,7 +177,23 @@ namespace DataProvider.Hapoalim {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;retrievalTransactionData&quot;:{&quot;balanceAmountDisplayIndication&quot;:&quot;Y&quot;,&quot;branchNumber&quot;:612,&quot;accountNumber&quot;:309490,&quot;retrievalMinDate&quot;:20150116,&quot;retrievalMaxDate&quot;:20160116,&quot;retrievalStartDate&quot;:20160101,&quot;retrievalEndDate&quot;:20160116,&quot;eventCounter&quot;:3,&quot;joinPfm&quot;:true},&quot;message&quot;:[],&quot;transactions&quot;:[{&quot;eventDate&quot;:20160104,&quot;formattedEventDate&quot;:&quot;2016-01-04T00:00:00.000Z&quot;,&quot;serialNumber&quot;:2,&quot;activityTypeCode&quot;:473,&quot;activityDescription&quot;:&quot;ע.מפעולות-ישיר&quot;,&quot;textCode&quot;:716,&quot;referenceNumber&quot;:3,&quot;referenceCatenatedNumber&quot;:300,&quot;valueDate&quot;:2 [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to {
+        ///    &quot;retrievalTransactionData&quot;: {
+        ///        &quot;balanceAmountDisplayIndication&quot;: &quot;Y&quot;,
+        ///        &quot;branchNumber&quot;: 345,
+        ///        &quot;accountNumber&quot;: 978654,
+        ///        &quot;retrievalMinDate&quot;: 20150116,
+        ///        &quot;retrievalMaxDate&quot;: 20170116,
+        ///        &quot;retrievalStartDate&quot;: 20170101,
+        ///        &quot;retrievalEndDate&quot;: 20170116,
+        ///        &quot;eventCounter&quot;: 3,
+        ///        &quot;joinPfm&quot;: true
+        ///    },
+        ///    &quot;message&quot;: [],
+        ///    &quot;transactions&quot;: [
+        ///        {
+        ///            &quot;eventDate&quot;: 20160104,
+        ///            &quot;formattedEventDate&quot;: &quot;2016-01-04T00:00:0 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string HapoalimTransactions2 {
             get {
@@ -115,7 +202,23 @@ namespace DataProvider.Hapoalim {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {&quot;retrievalTransactionData&quot;:{&quot;balanceAmountDisplayIndication&quot;:&quot;Y&quot;,&quot;branchNumber&quot;:617,&quot;accountNumber&quot;:527482,&quot;retrievalMinDate&quot;:20150116,&quot;retrievalMaxDate&quot;:20160116,&quot;retrievalStartDate&quot;:20160101,&quot;retrievalEndDate&quot;:20160116,&quot;eventCounter&quot;:16,&quot;joinPfm&quot;:true},&quot;message&quot;:[],&quot;transactions&quot;:[{&quot;eventDate&quot;:20160113,&quot;formattedEventDate&quot;:&quot;2016-01-13T00:00:00.000Z&quot;,&quot;serialNumber&quot;:1,&quot;activityTypeCode&quot;:485,&quot;activityDescription&quot;:&quot;העברה-נייד&quot;,&quot;textCode&quot;:680,&quot;referenceNumber&quot;:17495,&quot;referenceCatenatedNumber&quot;:12855,&quot;valueDate [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to {
+        ///    &quot;retrievalTransactionData&quot;: {
+        ///        &quot;balanceAmountDisplayIndication&quot;: &quot;Y&quot;,
+        ///        &quot;branchNumber&quot;: 545,
+        ///        &quot;accountNumber&quot;: 693339,
+        ///        &quot;retrievalMinDate&quot;: 20150116,
+        ///        &quot;retrievalMaxDate&quot;: 20170116,
+        ///        &quot;retrievalStartDate&quot;: 20170101,
+        ///        &quot;retrievalEndDate&quot;: 20170116,
+        ///        &quot;eventCounter&quot;: 16,
+        ///        &quot;joinPfm&quot;: true
+        ///    },
+        ///    &quot;message&quot;: [],
+        ///    &quot;transactions&quot;: [
+        ///        {
+        ///            &quot;eventDate&quot;: 20160113,
+        ///            &quot;formattedEventDate&quot;: &quot;2016-01-13T00:00: [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string HapoalimTransactions3 {
             get {

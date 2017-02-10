@@ -71,18 +71,18 @@ namespace DataProvider
                 switch (vendorId)
                 {
                     case VendorId.Hapoalim:
-                        var hapoalimApi = new HapoalimApi(accountDescriptor);
-                        //var hapoalimApi = new MockHapoalimApi(accountDescriptor);
+                        //var hapoalimApi = new HapoalimApi(accountDescriptor);
+                        var hapoalimApi = new MockHapoalimApi(accountDescriptor);
                         result = new HapoalimDataProvider(hapoalimApi);
                         break;
                     case VendorId.Amex:
-                        var amexApi = new AmexApi(accountDescriptor);
-                        //var amexApi = new MockAmexApi(accountDescriptor);
+                        //var amexApi = new AmexApi(accountDescriptor);
+                        var amexApi = new MockAmexApi(accountDescriptor);
                         result = new AmexDataProvider(amexApi);
                         break;
                     case VendorId.Cal:
-                        var calApi = new CalApi(accountDescriptor);
-                        //var calApi = new MockCalApi();
+                        //var calApi = new CalApi(accountDescriptor);
+                        var calApi = new MockCalApi();
                         result = new CalDataProvider(calApi);
                         break;
                     default: break;

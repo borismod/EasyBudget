@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using DataProvider.Hapoalim.Responses;
 using DataProvider.Interfaces;
 using log4net;
@@ -25,7 +22,7 @@ namespace DataProvider.Hapoalim
         {
             Thread.Sleep(300);
             if (accountDescriptor.Credentials.ContainsKey("Password") &&
-                accountDescriptor.Credentials["Password"].Equals("1q2w3e4r"))
+                accountDescriptor.Credentials["Password"].Equals("12345678"))
             {
                 _isValid = true;
             }
@@ -61,13 +58,13 @@ namespace DataProvider.Hapoalim
             string json = String.Empty;
             switch (account.BranchNumber)
             {
-                case 476:
+                case 135:
                     json = MockData.HapoalimTransactions1;
                     break;
-                case 612:
+                case 345:
                     json = MockData.HapoalimTransactions2;
                     break;
-                case 617:
+                case 545:
                     json = MockData.HapoalimTransactions3;
                     break;
             }
@@ -96,13 +93,13 @@ namespace DataProvider.Hapoalim
             string json = String.Empty;
             switch (account.BranchNumber)
             {
-                case 476:
+                case 135:
                     json = MockData.HapoalimBalance1;
                     break;
-                case 612:
+                case 345:
                     json = MockData.HapoalimBalance2;
                     break;
-                case 617:
+                case 545:
                     json = MockData.HapoalimBalance3;
                     break;
             }

@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Xml.Schema;
 using DataProvider.Amex.Responses;
-using DataProvider.Amex;
 using DataProvider.Interfaces;
 using log4net;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 
 namespace DataProvider.Amex
 {
@@ -34,7 +28,7 @@ namespace DataProvider.Amex
         {
             Thread.Sleep(1500);
             if (accountDescriptor.Credentials.ContainsKey("Id") && 
-                (accountDescriptor.Credentials["Id"].Equals("323764423") || accountDescriptor.Credentials["Id"].Equals("311913289")))
+                accountDescriptor.Credentials["Id"].Equals("042349839"))
             {
                 _isValid = true;
             }
