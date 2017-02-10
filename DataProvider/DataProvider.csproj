@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1CBCABA8-C347-4BC7-BBE1-794267099C3E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataProvider</RootNamespace>
+    <AssemblyName>DataProvider</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlAgilityPack, Version=1.4.9.5, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.4.9.5\lib\Net45\HtmlAgilityPack.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Reactive.Core, Version=2.2.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rx-Core.2.2.5\lib\net45\System.Reactive.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Reactive.Interfaces, Version=2.2.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rx-Interfaces.2.2.5\lib\net45\System.Reactive.Interfaces.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Reactive.Linq, Version=2.2.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rx-Linq.2.2.5\lib\net45\System.Reactive.Linq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Amex\MockData.Designer.cs" />
+    <Compile Include="Amex\MockData1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MockData.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Amex\Requests\LogonBody.cs" />
+    <Compile Include="Amex\Requests\ValidateIdBody.cs" />
+    <Compile Include="Amex\Responses\LoginResponse.cs" />
+    <Compile Include="Amex\Responses\TransactionsListResponse.cs" />
+    <Compile Include="Amex\Responses\ValidateIdResponse.cs" />
+    <Compile Include="Model\BankAccount.cs" />
+    <Compile Include="Model\BankTransaction.cs" />
+    <Compile Include="Cal\CalApi.cs" />
+    <Compile Include="Cal\CalDataProvider.cs" />
+    <Compile Include="Cal\CalSessionInfo.cs" />
+    <Compile Include="Cal\ICalApi.cs" />
+    <Compile Include="Cal\MockCalApi.cs" />
+    <Compile Include="Model\CreditCardAccount.cs" />
+    <Compile Include="Model\CreditTransaction.cs" />
+    <Compile Include="DataProviderException.cs" />
+    <Compile Include="Hapoalim\Responses\VerifyResponse.cs" />
+    <Compile Include="ProvidersFactory.cs" />
+    <Compile Include="Hapoalim\MockData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MockData.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Hapoalim\Responses\AccountResponse.cs" />
+    <Compile Include="Hapoalim\Responses\BalanceResponse.cs" />
+    <Compile Include="Hapoalim\HapoalimApi.cs" />
+    <Compile Include="Hapoalim\HapoalimDataProvider.cs" />
+    <Compile Include="Hapoalim\IHapoalimApi.cs" />
+    <Compile Include="Hapoalim\Responses\InitLoginResponse.cs" />
+    <Compile Include="Hapoalim\MockHapoalimApi.cs" />
+    <Compile Include="Hapoalim\ServiceProviders.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServiceProviders.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Hapoalim\SessionInfo.cs" />
+    <Compile Include="Hapoalim\Responses\TransactionResponse.cs" />
+    <Compile Include="Hapoalim\Responses\TransactionsResponse.cs" />
+    <Compile Include="Interfaces\IAccount.cs" />
+    <Compile Include="Interfaces\IBankAccount.cs" />
+    <Compile Include="Interfaces\IProviderDescriptor.cs" />
+    <Compile Include="Interfaces\ICreditCardAccount.cs" />
+    <Compile Include="Interfaces\IDataProvider.cs" />
+    <Compile Include="Interfaces\ITransaction.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VendorId.cs" />
+    <Compile Include="VendorInfo.cs" />
+    <Compile Include="WebRequestHelper.cs" />
+    <Compile Include="Amex\AmexApi.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Amex\AmexDataProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Amex\AmexSessionInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Amex\IAmexApi.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Amex\MockAmexApi.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Amex\Responses\CardListResponse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Amex\Responses\DealDetailsResponse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Amex\Responses\DealsListResponse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Amex\Responses\DealsSumResponse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Amex\Responses\HeaderResponse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Cal\Responses\" />
+    <Folder Include="Wallet\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Hapoalim\MockData.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MockData.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hapoalim\ServiceProviders.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ServiceProviders.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Amex\MockData.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>MockData1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

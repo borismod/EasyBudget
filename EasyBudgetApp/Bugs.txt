@@ -1,0 +1,9 @@
+﻿1. If you have two sets of credentails to the same account you are able to add the same account twise to the profile.
+2. Doesn't check vendors sertificates.
+3. Error handling in case of incorrect credentails in NewAccount window and on startup
+4. Show accounts button in NewAccounts window has to be disabled untill all credentials are provided
+5. Tab in fields in NewAccounts window is not convenient
+6. Exception("Cannot to get cards") is not handled in newAccountViewModel!
+7. Encrypt password!!! - SHA1?
+
+

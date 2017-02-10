@@ -1,0 +1,84 @@
+﻿<UserControl x:Class="EasyBudgetApp.Views.Controls.AccountControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:design="clr-namespace:EasyBudgetApp.ViewModels.Design"
+             xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+             x:Name="AccountSummaryControl"
+             mc:Ignorable="d"
+             d:DesignWidth="250">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <design:AccountControlDesignViewModel x:Key="AccountControlDesignViewModel"/>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Border BorderBrush="{StaticResource AccentColorBrush}" BorderThickness="1">
+        <Grid Margin="5" d:DataContext="{Binding Source={StaticResource AccountControlDesignViewModel}}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.Resources>
+                <Style x:Key="CustomMetroToggleSwitchButton" TargetType="{x:Type controls:ToggleSwitchButton}" BasedOn="{StaticResource MetroToggleSwitchButton}">
+                    <Setter Property="SwitchForeground" Value="YellowGreen"/>
+                </Style>
+            </Grid.Resources>
+
+            <StackPanel Grid.Column="0" Grid.Row="0" >
+                <TextBlock Text="{Binding CompanyName}" Foreground="{StaticResource GrayBrush1}" FontWeight="Bold" ></TextBlock>
+                <TextBlock Text="{Binding Name}" Foreground="{StaticResource GrayBrush1}" FontWeight="Bold" ></TextBlock>
+            </StackPanel>
+
+            <TextBlock Grid.Column="0" Grid.Row="1" VerticalAlignment="Bottom" Margin="1" Text="{Binding Details}"/>
+
+            <controls:ProgressRing Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" Width="40" Height="40" Margin="3,0,2,13" HorizontalAlignment="Center"
+                                   Visibility="{Binding IsLoading, Converter={StaticResource BoolToVisibilityConverter}}" VerticalAlignment="Bottom" />
+
+            <TextBlock Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Margin="2" VerticalAlignment="Top"  HorizontalAlignment="Right"
+                       Foreground="DarkRed" Text="{Binding Error}" ToolTip="{Binding ErrorMessage}"
+                       Visibility="{Binding Error, Converter={StaticResource EmptyToVisibilityConverter}}"/>
+
+            <StackPanel Grid.Column="2" Grid.Row="0" Orientation="Vertical"
+                        Visibility="{Binding Error, Converter={StaticResource InverseEmptyToVisibilityConverter}}">
+                <controls:ToggleSwitch OnLabel="" OffLabel="" Margin="0,-2,-5,0"
+                    IsChecked="{Binding IsEnabled}" ToggleSwitchButtonStyle="{StaticResource CustomMetroToggleSwitchButton}"
+                    Visibility="{Binding Path=IsSwitchVisible, Mode=TwoWay, ElementName=AccountSummaryControl, Converter={StaticResource BoolToVisibilityConverter}}"/>
+
+                
+            </StackPanel>
+
+            <Button Content="Remove" Margin="1" Grid.Column="2" Grid.Row="0" 
+                        Command="{Binding Path=RemoveAccountCommand, ElementName=AccountSummaryControl}"
+                        CommandParameter="{Binding}" Style="{DynamicResource SquareButtonStyle}"
+                        Visibility="{Binding Error, Converter={StaticResource EmptyToVisibilityConverter}}"/>
+            
+            <StackPanel Grid.Column="2" Grid.Row="1">
+                <StackPanel Orientation="Horizontal" Visibility="{Binding IsPeriodicVisible, ElementName=AccountSummaryControl}">
+                    <TextBlock Text="Period: " Visibility="{Binding Pereodic, Converter={StaticResource DoubleToVisibilityConverter}}"/>
+                    <TextBlock Text="{Binding Pereodic, StringFormat={}{0:#,0}}" FontWeight="ExtraBold"
+                               Foreground="{Binding Pereodic, Converter={StaticResource DoubleToBrushConverter}}"
+                               Visibility="{Binding Pereodic, Converter={StaticResource DoubleToVisibilityConverter}}"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Visibility="{Binding IsTotalVisible, ElementName=AccountSummaryControl}">
+                    <TextBlock Text="Total:   " Visibility="{Binding Total, Converter={StaticResource DoubleToVisibilityConverter}}"/>
+                    <TextBlock Text="{Binding Total, StringFormat={}{0:#,0}}" FontWeight="ExtraBold"
+                               Foreground="{Binding Total, Converter={StaticResource DoubleToBrushConverter}}"
+                               Visibility="{Binding Total, Converter={StaticResource DoubleToVisibilityConverter}}"/>
+                </StackPanel>
+
+                
+            </StackPanel>
+        </Grid>
+    </Border>
+</UserControl>

@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "",
+    "Name": "Bank Hapoalim",
+    "Credentials": {
+      "Username": "vm61537",
+      "Password": "1q2w3e4r"
+    },
+    "Accounts": [
+      {
+        "Id": 12476129249,
+        "Name": "129249",
+        "Details": "476-129249",
+        "IsEnabled": true,
+        "VendorName": "Hapoalim",
+        "UserId": "vm61537"
+      },
+      {
+        "Id": 12612309490,
+        "Name": "309490",
+        "Details": "612-309490",
+        "IsEnabled": true,
+        "VendorName": "Hapoalim",
+        "UserId": "vm61537"
+      }
+    ],
+    "UserId": "vm61537"
+  },
+  {
+    "Type": "",
+    "Name": "American Express",
+    "Credentials": {
+      "Id": "311913289",
+      "Last 6 digits": "246660",
+      "Password": "ym170281"
+    },
+    "Accounts": [
+      {
+        "Id": 6660,
+        "Name": "אמק\"ס BUSINESS זהב  ",
+        "Details": "אמק\"ס BUSINESS זהב  -6660",
+        "IsEnabled": true,
+        "VendorName": "American Express",
+        "UserId": "311913289"
+      }
+    ],
+    "UserId": "311913289"
+  },
+  {
+    "Type": "",
+    "Name": "American Express",
+    "Credentials": {
+      "Id": "323764423",
+      "Last 6 digits": "667840",
+      "Password": "chebcheb12"
+    },
+    "Accounts": [
+      {
+        "Id": 7840,
+        "Name": "אמק\"ס BUSINESS זהב  ",
+        "Details": "אמק\"ס BUSINESS זהב  -7840",
+        "IsEnabled": true,
+        "VendorName": "American Express",
+        "UserId": "323764423"
+      }
+    ],
+    "UserId": "323764423"
+  }
+]

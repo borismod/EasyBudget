@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>EasyBudget</id>
+        <version>1.0.0</version>
+        <authors>yk29402</authors>
+        <iconUrl>C:\Users\YK29402\Desktop\Softway\budget_icon.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>EasyBudget application Alfa release</description>
+        <summary>EasyBudget application Alfa release</summary>
+        <releaseNotes>## What's new
+...</releaseNotes>
+    </metadata>
+    <files>
+        <file src="bin\Debug\DataProvider.dll" target="lib\net46\DataProvider.dll" />
+        <file src="bin\Debug\DeltaCompressionDotNet.dll" target="lib\net46\DeltaCompressionDotNet.dll" />
+        <file src="bin\Debug\DeltaCompressionDotNet.MsDelta.dll" target="lib\net46\DeltaCompressionDotNet.MsDelta.dll" />
+        <file src="bin\Debug\DeltaCompressionDotNet.PatchApi.dll" target="lib\net46\DeltaCompressionDotNet.PatchApi.dll" />
+        <file src="bin\Debug\EasyBudgetApp.exe" target="lib\net46\EasyBudgetApp.exe" />
+        <file src="bin\Debug\EasyBudgetApp.exe.config" target="lib\net46\EasyBudgetApp.exe.config" />
+        <file src="bin\Debug\ICSharpCode.SharpZipLib.dll" target="lib\net46\ICSharpCode.SharpZipLib.dll" />
+        <file src="bin\Debug\log4net.dll" target="lib\net46\log4net.dll" />
+        <file src="bin\Debug\MahApps.Metro.dll" target="lib\net46\MahApps.Metro.dll" />
+        <file src="bin\Debug\Mono.Cecil.dll" target="lib\net46\Mono.Cecil.dll" />
+        <file src="bin\Debug\Mono.Cecil.Mdb.dll" target="lib\net46\Mono.Cecil.Mdb.dll" />
+        <file src="bin\Debug\Mono.Cecil.Pdb.dll" target="lib\net46\Mono.Cecil.Pdb.dll" />
+        <file src="bin\Debug\Mono.Cecil.Rocks.dll" target="lib\net46\Mono.Cecil.Rocks.dll" />
+        <file src="bin\Debug\Newtonsoft.Json.dll" target="lib\net46\Newtonsoft.Json.dll" />
+        <file src="bin\Debug\NuGet.Squirrel.dll" target="lib\net46\NuGet.Squirrel.dll" />
+        <file src="bin\Debug\Splat.dll" target="lib\net46\Splat.dll" />
+        <file src="bin\Debug\Squirrel.dll" target="lib\net46\Squirrel.dll" />
+        <file src="bin\Debug\System.Reactive.Core.dll" target="lib\net46\System.Reactive.Core.dll" />
+        <file src="bin\Debug\System.Reactive.Interfaces.dll" target="lib\net46\System.Reactive.Interfaces.dll" />
+        <file src="bin\Debug\System.Reactive.Linq.dll" target="lib\net46\System.Reactive.Linq.dll" />
+        <file src="bin\Debug\System.Reactive.PlatformServices.dll" target="lib\net46\System.Reactive.PlatformServices.dll" />
+        <file src="bin\Debug\System.Windows.Interactivity.dll" target="lib\net46\System.Windows.Interactivity.dll" />
+    </files>
+</package>
