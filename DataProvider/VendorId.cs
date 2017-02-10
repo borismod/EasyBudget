@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace DataProvider
 {
-  public enum VendorId { None, Hapoalim, Amex, Cal };
+  public enum VendorId { None, Hapoalim, Amex, Cal, Umtb };
 }

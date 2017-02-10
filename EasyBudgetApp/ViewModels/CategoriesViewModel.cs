@@ -35,7 +35,7 @@ namespace EasyBudgetApp.ViewModels
 
         public CategoriesViewModel()
         {
-            _categoriesMapFilePath = Path.Combine(Directory.GetCurrentDirectory(), @"Categories.json");
+            _categoriesMapFilePath = Path.Combine(Directory.GetCurrentDirectory(), @"Models\Credentials\Data", @"Categories.json");
             PopulateCategories();
         }
 

@@ -21,8 +21,8 @@ namespace EasyBudgetApp.Models.Credentials
 
         public UserProfileManager()
         {
-            _userProfileFilePath = Path.Combine(Directory.GetCurrentDirectory(), @"UserProfile.json");
-            _companyProfileFilePath = Path.Combine(Directory.GetCurrentDirectory(), @"CompanyProfile.json");
+            _userProfileFilePath = Path.Combine(Directory.GetCurrentDirectory(), @"Models\Credentials\Data", @"UserProfile.json");
+            _companyProfileFilePath = Path.Combine(Directory.GetCurrentDirectory(), @"Models\Credentials\Data", @"CompanyProfile.json");
 
             CompanyProfiles = LoadCompanyProfiles(_companyProfileFilePath);
             UserProfiles = LoadUserProfiles(_userProfileFilePath);

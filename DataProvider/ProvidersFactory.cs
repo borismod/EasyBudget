@@ -105,6 +105,7 @@ namespace DataProvider
                 case "Bank Hapoalim": return VendorId.Hapoalim;
                 case "American Express": return VendorId.Amex;
                 case "Visa-Cal": return VendorId.Cal;
+                case "Umtb": return VendorId.Umtb;
                 default: return VendorId.None;
             }
         }

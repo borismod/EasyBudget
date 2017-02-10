@@ -17,7 +17,7 @@ namespace EasyBudgetApp
         public Installer(MessageService messageService)
         {
             _messageService = messageService;
-            var updateTask = new TaskFactory().StartNew(UpdateApp).Result;
+            //var updateTask = new TaskFactory().StartNew(UpdateApp).Result;
         }
 
         private async Task UpdateApp()

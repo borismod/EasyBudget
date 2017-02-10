@@ -14,7 +14,7 @@ namespace EasyBudgetApp
         {
             _inactive = new Dictionary<long, bool>();
 
-            _activityFilePath = Path.Combine(Directory.GetCurrentDirectory(), @"Inactive.json");
+            _activityFilePath = Path.Combine(Directory.GetCurrentDirectory(), @"Models\Credentials\Data", @"Inactive.json");
             if (string.IsNullOrEmpty(_activityFilePath) || !File.Exists(_activityFilePath))
             {
                 throw new ArgumentException(@"Incorrect value of activityFilePath - {0}", _activityFilePath);
