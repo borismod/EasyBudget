@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html dir="rtl" xmlns:x="urn:schemas-microsoft-com:office:excel">
+  <head>
+    <title>Test</title>
+    <meta charset="utf-16" http-equiv="Content-Type" content="text/html" />
+  </head>
+  <body>
+    <!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>Sheet 1</x:Name><x:WorksheetOptions><x:DisplayRightToLeft/><x:Autofit/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]-->
+    <table>
+      <tr>
+        <td style="mso-width-source:auto; font-size:small;">
+          <b>יתרה ותנועות בחשבון</b>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+      <tr>
+        <td style="mso-width-source:auto;">
+          <b>מספר חשבון:</b>
+        </td>
+        <td style="mso-width-source:auto;">123-456789 פלוני אלמוני</td>
+      </tr>
+      <tr>
+        <td></td>
+      </tr>
+    </table>
+    <table style="border: solid 1 black;">
+      <tr>
+        <td style="mso-width-source:auto; ">יתרה בחשבון: </td>
+        <td style="mso-width-source:auto; "> 108,527.20</td>
+        <td style="mso-width-source:auto; "> לתאריך -</td>
+        <td style="mso-width-source:auto; ">09/02/17 20:43</td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+      </tr>
+      <tr>
+        <td style="mso-width-source:auto; ">מסגרת אשראי: </td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+      </tr>
+      <tr>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+      </tr>
+      <tr>
+        <td style="mso-width-source:auto; ">
+          <b>תנועות אחרונות</b>
+        </td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+      </tr>
+      <tr>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+      </tr>
+      <tr>
+        <td style="background-color: #808080; color: White; mso-width-source:auto;">
+          <b> תאריך</b>
+        </td>
+        <td style="background-color: #808080; color: White; mso-width-source:auto;">
+          <b>תאריך ערך</b>
+        </td>
+        <td style="background-color: #808080; color: White; mso-width-source:auto;">
+          <b>סוג תנועה</b>
+        </td>
+        <td style="background-color: #808080; color: White; mso-width-source:auto;">
+          <b>זכות</b>
+        </td>
+        <td style="background-color: #808080; color: White; mso-width-source:auto;">
+          <b>חובה</b>
+        </td>
+        <td style="background-color: #808080; color: White; mso-width-source:auto;">
+          <b>יתרה בש"ח</b>
+        </td>
+        <td style="background-color: #808080; color: White; mso-width-source:auto;">
+          <b>אסמכתא</b>
+        </td>
+        <td style="background-color: #808080; color: White; mso-width-source:auto;">
+          <b></b>
+        </td>
+        <td style="background-color: #808080; color: White; mso-width-source:auto;"></td>
+      </tr>
+      <tr>
+        <td style="mso-width-source:auto; "> 03/02/17</td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; ">זיכוי - בנק לאומי (י)</td>
+        <td style="mso-width-source:auto; "> 101,110.00</td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; mso-number-format:\#\,\#\#0\.00;">10,068.04</td>
+        <td style="mso-width-source:auto; ">99010</td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+      </tr>
+      <tr>
+        <td style="background-color: #C0C0C0; mso-width-source:auto; "> 05/02/17</td>
+        <td style="background-color: #C0C0C0; mso-width-source:auto; "></td>
+        <td style="background-color: #C0C0C0; mso-width-source:auto; ">קרן מכבי (י)</td>
+        <td style="background-color: #C0C0C0; mso-width-source:auto; "></td>
+        <td style="background-color: #C0C0C0; mso-width-source:auto; "> 10130.84</td>
+        <td style="background-color: #C0C0C0; mso-width-source:auto; mso-number-format:\#\,\#\#0\.00;">9,937.20</td>
+        <td style="background-color: #C0C0C0; mso-width-source:auto; ">25300</td>
+        <td style="background-color: #C0C0C0; mso-width-source:auto; "></td>
+        <td style="background-color: #C0C0C0; mso-width-source:auto; "></td>
+      </tr>
+      <tr>
+        <td style="mso-width-source:auto; "> 07/02/17</td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; ">פירעון שיק (י)</td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "> 10210.00</td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; ">2150339</td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+      </tr>
+      <tr>
+        <td style="background-color: #C0C0C0; mso-width-source:auto; "> 07/02/17</td>
+        <td style="background-color: #C0C0C0; mso-width-source:auto; "></td>
+        <td style="background-color: #C0C0C0; mso-width-source:auto; ">בנק-קט הפועלים  613(י)</td>
+        <td style="background-color: #C0C0C0; mso-width-source:auto; "></td>
+        <td style="background-color: #C0C0C0; mso-width-source:auto; "> 10200.00</td>
+        <td style="background-color: #C0C0C0; mso-width-source:auto; mso-number-format:\#\,\#\#0\.00;">9,527.20</td>
+        <td style="background-color: #C0C0C0; mso-width-source:auto; ">5981</td>
+        <td style="background-color: #C0C0C0; mso-width-source:auto; "></td>
+        <td style="background-color: #C0C0C0; mso-width-source:auto; "></td>
+      </tr>
+      <tr>
+        <td style="mso-width-source:auto; "> 08/02/17</td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; ">פירעון שיק (י)</td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "> 101,000.00</td>
+        <td style="mso-width-source:auto; mso-number-format:\#\,\#\#0\.00;">8,527.20</td>
+        <td style="mso-width-source:auto; ">12345676</td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+      </tr>
+      <tr>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+      </tr>
+      <tr>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+      </tr>
+      <tr>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+      </tr>
+      <tr>
+        <td style="mso-width-source:auto; ">
+          <b>תנועות היום</b>
+        </td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+      </tr>
+      <tr>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+      </tr>
+      <tr>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+      </tr>
+      <tr>
+        <td style="mso-width-source:auto; ">תנועות היום הן תנועות בחשבון שבוצעו ביום העסקים הנוכחי.תנועות אלה אינן סופיות ולכן עשויות להשתנות עד סוף יום העסקים הנוכחי. לתשומת לבך, חלק מתנועות היום עשוי שלא לבוא לידי ביטוי ביתרה המעודכנת.</td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+        <td style="mso-width-source:auto; "></td>
+      </tr>
+    </table>
+  </body>
+</html>

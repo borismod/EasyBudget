@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProvider", "DataProvide
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telemetry", "Telemetry\Telemetry.csproj", "{C180653F-5B0A-4285-8DA8-8D9EE2386D2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProvider.Tests", "DataProvider.Tests\DataProvider.Tests.csproj", "{EDD4EABF-1A8A-4046-B189-85D0E11B8BC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C180653F-5B0A-4285-8DA8-8D9EE2386D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C180653F-5B0A-4285-8DA8-8D9EE2386D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C180653F-5B0A-4285-8DA8-8D9EE2386D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDD4EABF-1A8A-4046-B189-85D0E11B8BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD4EABF-1A8A-4046-B189-85D0E11B8BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD4EABF-1A8A-4046-B189-85D0E11B8BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD4EABF-1A8A-4046-B189-85D0E11B8BC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

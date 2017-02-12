@@ -240,6 +240,6 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
-
+*.sjon
 #EasyBudgetApp/Models/Credentials/Data/UserProfile.json
 *.json

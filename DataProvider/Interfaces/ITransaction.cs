@@ -10,8 +10,8 @@ namespace DataProvider.Interfaces
         long EventId { get; set; }
         DateTime EventDate { get; }
         string EventDescription { get; }
-        Double EventAmount { get; set; }
-        Double CurrentBalance { get; set; }
+        double EventAmount { get; set; }
+        double CurrentBalance { get; set; }
         TransactionType Type { get; set; }
         string SupplierId { get; set; }
     }
